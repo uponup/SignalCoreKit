@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.summary          = "A Swift & Objective-C library used by other Signal libraries."
 
   s.description      = <<-DESC
-A Swift & Objective-C library used by other Signal libraries.
+Custom and Private SignalCoreKit for Mavericks MessageBroker
   DESC
 
-  s.homepage         = "https://github.com/signalapp/SignalCoreKit"
+  s.homepage         = "https://github.com/uponup/SignalCoreKit"
   s.license          = 'GPLv3'
   s.author           = { "iOS Team" => "ios@signal.org" }
-  s.source           = { :git => "https://github.com/signalapp/SignalCoreKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/uponup/SignalCoreKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/signalapp'
   
   s.platform     = :ios, '10.0'
@@ -41,3 +41,4 @@ A Swift & Objective-C library used by other Signal libraries.
     test_spec.source_files = 'SignalCoreKitTests/src/**/*.{h,m,swift}'
   end
 end
+
