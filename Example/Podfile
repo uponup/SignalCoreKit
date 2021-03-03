@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SignalCoreKit_Example' do
+  pod 'SignalCoreKit', :path => '../'
+
+  target 'SignalCoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

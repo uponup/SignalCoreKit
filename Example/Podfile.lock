@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - GRKOpenSSLFramework (1.0.2.20.2)
+  - SignalCoreKit (1.0.0):
+    - CocoaLumberjack
+    - GRKOpenSSLFramework
+
+DEPENDENCIES:
+  - SignalCoreKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - GRKOpenSSLFramework
+
+EXTERNAL SOURCES:
+  SignalCoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  GRKOpenSSLFramework: 01e3dd58a1d865111ac9439841119ff91a26e1f2
+  SignalCoreKit: 18b385d1132a6fed2a9c55ea3c39f4144d4a27fd
+
+PODFILE CHECKSUM: b8d3288bb796ea3cd792fa9f1b685a4601a7e258
+
+COCOAPODS: 1.10.1
